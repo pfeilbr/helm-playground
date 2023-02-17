@@ -12,6 +12,9 @@ learn [Helm](https://helm.sh/) - The package manager for Kubernetes
 
 ## helm chart dir structure
 
+- `Chart.yaml` - top-level chart metadata. e.g. name, version, etc.
+- `values.yaml` - declare variables here that are used in the `templates/*.yaml` files
+
 ```sh
 $ helm create demo
 Creating demo
