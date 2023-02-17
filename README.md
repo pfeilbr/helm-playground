@@ -10,6 +10,28 @@ learn [Helm](https://helm.sh/) - The package manager for Kubernetes
 
 > Helm is a tool that allows you to create deployment templates. This template is called a helm chart, which consists of the yaml files that look more or less like a regular k8s yaml file but have some variables in them. Those variables can be defined through an additional values.yaml file.
 
+## helm chart dir structure
+
+```sh
+$ helm create demo
+Creating demo
+$ tree demo
+demo
+├── Chart.yaml
+├── charts
+├── templates
+│   ├── NOTES.txt
+│   ├── _helpers.tpl
+│   ├── deployment.yaml
+│   ├── hpa.yaml
+│   ├── ingress.yaml
+│   ├── service.yaml
+│   ├── serviceaccount.yaml
+│   └── tests
+│       └── test-connection.yaml
+└── values.yaml
+```
+
 ## resources
 
 - [Helm: Quickstart Guide](https://helm.sh/docs/intro/quickstart/)
