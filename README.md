@@ -40,3 +40,4 @@ demo
 - [Helm: Quickstart Guide](https://helm.sh/docs/intro/quickstart/)
 - [Kubernetes and Helm in a Nutshell](https://motius.de/insights/kubernetes-and-helm-in-a-nutshell/)
 - [Helm Charts: Kubernetes Tutorial and Examples](https://www.containiq.com/post/helm-charts)
+- [ArtifactHUB](https://artifacthub.io/) - Find, install and publish Kubernetes packages
