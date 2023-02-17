@@ -1,0 +1,17 @@
+# helm-playground
+
+learn [Helm](https://helm.sh/) - The package manager for Kubernetes
+
+## concepts
+
+- similar to apt, yum, homebrew, but for k8s
+- Helm is the only package manager specifically for Kubernetes applications. You can package your applications as a Helm Chart, and then install, update, and roll back your Kubernetes applications using Helm.
+- a vanilla k8s app deployment consists of several yaml files to describe the k8s artifacts in a declarative manner.
+
+> Helm is a tool that allows you to create deployment templates. This template is called a helm chart, which consists of the yaml files that look more or less like a regular k8s yaml file but have some variables in them. Those variables can be defined through an additional values.yaml file.
+
+## resources
+
+- [Helm: Quickstart Guide](https://helm.sh/docs/intro/quickstart/)
+- [Kubernetes and Helm in a Nutshell](https://motius.de/insights/kubernetes-and-helm-in-a-nutshell/)
+- [Helm Charts: Kubernetes Tutorial and Examples](https://www.containiq.com/post/helm-charts)
